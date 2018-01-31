@@ -1,0 +1,8 @@
+﻿<Application x:Class="Wpf截图工具.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:Wpf截图工具"
+             StartupUri="MainWindow.xaml">
+	<Application.Resources>
+	</Application.Resources>
+</Application>
