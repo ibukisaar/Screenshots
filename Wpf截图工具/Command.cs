@@ -22,7 +22,7 @@ namespace Wpf截图工具 {
 		}
 
 		bool ICommand.CanExecute(object parameter) {
-			if (parameter == null) return CanExecute(default(T));
+			if (parameter == null) return true;
 			return parameter is T param && CanExecute(param);
 		}
 
